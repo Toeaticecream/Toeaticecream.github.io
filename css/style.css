@@ -1,0 +1,258 @@
+* {
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+    color: rgb(100, 100, 100);
+}
+a:hover{text-decoration: none;}
+body{
+    margin: 0;
+    height: 100%;
+    width: 100%;
+}
+html{
+    height: 100%;
+    width: 100%;
+}
+
+#id_navigation{
+    position: relative;
+    display: flex;
+    justify-content: flex-start;
+    height: 150px;
+    width: 100%;
+    background-color: rgba(55, 155, 255, 0.7);
+    border-radius: 10px 10px 10px 10px;
+}
+
+#id_project_1{
+    background-color: rgba(150, 150, 150, 0.5);
+    height: auto;
+    border-radius: 10px 10px 10px 10px;
+    padding: 10px;
+
+}
+#id_project_2{
+    position: relative;
+    background-color: rgba(150, 150, 150, 0.5);
+    height: auto;
+    border-radius: 10px 10px 10px 10px;
+    padding: 10px;
+    top: 10px;
+}
+.welcome{
+    background-color: #7196f3;
+    height: 100px;
+    width: 100%;
+    padding: 10px 0 10px 0;
+    font-size: 70px;
+    font-family: Georgia, serif;
+    color: #836a6a;
+    text-align: center;
+}
+
+.main{
+    display: table_cell;
+    padding-top: 0;
+    padding-right: 10;
+    padding-bottom: 0;
+    padding-left: 10;
+    width: 100%;
+    background-image: url('https://user-images.githubusercontent.com/125326450/219851801-99d54b6b-017b-482a-b773-d8f9b01c8923.jpg');
+    background-repeat: repeat;
+    background-position: center top;
+    background-attachment: fixed;
+    background-size: auto;
+}
+
+.class_welcome{
+    height: 600px;
+    width: 100%;
+    display: table;
+}
+.class_welcome1{
+    display: table-cell;
+    vertical-align: middle;
+}
+
+
+.class_2{
+    -ms-flex: 25%; /* IE10 */
+    flex: 25%;
+    background-color: rgba(255, 255, 255, 0.4);
+    height: auto;
+    width: auto;
+    padding: 20px;
+    border-radius: 10px 10px 10px 10px;
+}
+
+.class_2_3{
+    -ms-flex: 5%; /* IE10 */
+    flex: 5%;
+    height: auto;
+    width: auto;
+    padding: 20px;
+    
+}
+.class_3{
+    -ms-flex: 70%; /* IE10 */
+    flex: 70%;
+    background-color: rgba(255,255,255, 0.4);
+    height: auto;
+    width: auto;
+    padding: 20px;
+    border-radius: 10px 10px 10px 10px;
+
+}
+.class_main{
+    width: 100%;
+    padding: 20px;
+}
+.class_1{
+    padding: 20px;
+    display: -ms-flexbox; /* IE10 */
+    display: flex;
+    -ms-flex-wrap: wrap; /* IE10 */
+    flex-wrap: wrap;
+    background-color: rgba(255, 255, 255, 0.3);
+    border-radius: 10px 10px 10px 10px;
+}
+
+.class_cell
+{
+    width: auto;
+    height: auto;
+    padding: 20px;
+}
+
+.pic1{
+    width: 100px;
+    border-radius: 10px 10px 10px 10px;
+
+}
+.pic2{
+    width: 80%;
+    padding: 10px;
+}
+
+
+
+
+.end{
+  background-color: rgba(155,155,155, 0.7);
+  height: 150px;
+  padding: 10px 0 10px 0;
+  font-size: 80px;
+  font-family: Georgia, serif;
+  text-align: center;
+}
+
+.text0{
+    display: block;
+    background-color: rgba(255,255,255, 0.3);
+    padding: 10px;
+    margin-left:auto; 
+    margin-right:auto;
+    width:fit-content;
+    height: auto;
+    text-align: center;
+    font-size: 80px;
+    font-family: Georgia, serif;
+    color: #836a6a;
+    border-radius: 10px 10px 10px 10px;
+}
+
+.text1{
+    padding: 10px;
+}
+
+.text2{
+    position: relative;
+    top: 5px;
+    left:10px ;
+    bottom: 5px;
+    background-color: rgba(255,255,255, 0.3);
+    padding: 10px;
+    width:fit-content;
+    height: auto;
+    text-align: center;
+    border-radius: 10px 10px 10px 10px;
+}
+
+@media (max-width: 700px) 
+{
+    .class_4 
+    {
+        flex-direction: column;
+    }
+}
+.text_introduction{
+    font-size: 10px;
+    border:0;
+    border-radius:5px;
+    background-color:rgba(241,241,241,.98);
+    width: 90%;
+    height: 200px;
+    top:10px;
+    left:10px;
+    padding: 10px;
+    resize: none;
+}
+
+.text_project_1{
+    font-size: 10px;
+    border:0;
+    border-radius:5px;
+    background-color:rgba(241,241,241,.98);
+    width: 80%;
+    height: 200px;
+    top:10px;
+    left:10px;
+    padding: 10px;
+    resize: none;
+}
+/****************************************************************/
+.navigation{
+    position: absolute;
+    bottom:0px;
+}
+.dropbtn {
+    background-color: rgb(55, 155, 255);
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+}
+
+.dropdown {
+    display: inline-block;     
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {background-color: #f1f1f1}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown:hover .dropbtn {
+    background-color: rgb(35, 135, 235);;
+}
+
+/*********************************************************************/
